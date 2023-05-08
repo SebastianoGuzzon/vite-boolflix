@@ -22,7 +22,7 @@ export default {
         </div>
         <div class="flag d-flex">
           <span>language:</span>
-          <img :src="store.findFlags(film.original_language)" alt="flag not available">
+          <img :src="store.findFlags(film.original_language)" alt="flag not find">
         </div>
         <p class="stars mt-1">
           <span>Rate:</span>
