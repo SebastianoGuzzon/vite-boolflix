@@ -25,6 +25,6 @@ export default {
 </template>
 <style lang="scss" scoped>
 .p-my {
-  padding: 0 10rem;
+  margin: auto;
 }
 </style>
