@@ -59,12 +59,6 @@ header {
       max-width: 800px;
       height: 100%;
 
-      .netflix-logo {
-        width: 350px;
-        fill: #e50914;
-        line-height: normal;
-      }
-
       .title {
 
         h1 {
