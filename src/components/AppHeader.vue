@@ -40,13 +40,12 @@ Voto -->
   </header>
 </template>
 <style lang="scss" scoped>
-// 
 header {
   margin: 6rem 0;
   background-image: url(../assets/img/background_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 12rem);
+  height: calc(100vh - 8rem);
   color: white;
 
   .layover {
