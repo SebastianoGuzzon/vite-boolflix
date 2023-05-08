@@ -31,9 +31,9 @@ Lingua
 Voto -->
 
         <div class="title">
-          <h1>Film, serie TV e tanto altro. Senza limiti.</h1>
-          <h2>Guarda ciò che vuoi ovunque. Qui non paghi mai nulla.</h2>
-          <h3>Vuoi guardare un Film o una Serie? Inserisci il nome per guardare subito quello che vuoi.</h3>
+          <h1>Film, serie TV e tanto altro.</h1>
+          <h2>Guarda ciò che vuoi ovunque.</h2>
+          <h3>Inserisci il nome per guardare subito quello che vuoi.</h3>
         </div>
         <div class="search d-flex gap-2 my-5 w-50">
           <input type="search" class="form-control" v-model="store.searchTitle" @input="store.checkInput"
@@ -46,6 +46,7 @@ Voto -->
   </header>
 </template>
 <style lang="scss" scoped>
+// 
 header {
   margin: 6rem 0;
   background-image: url(../assets/img/background_image.jpg);
